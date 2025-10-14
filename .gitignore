@@ -1,3 +1,8 @@
+﻿# Ignore all environment files
 .env
-/backend/.env
-backend/.env
+**/.env
+**/.env.*
+
+# But allow sample env files
+!.env.sample
+!**/.env.sample

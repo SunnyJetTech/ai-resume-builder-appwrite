@@ -71,5 +71,3 @@ class ResetPasswordSchema(BaseModel):
             raise ValueError("Passwords do not match")
 
         return self
-    
-# this
